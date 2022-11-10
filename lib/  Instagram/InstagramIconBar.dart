@@ -22,8 +22,10 @@ class InstagramIconBar extends StatelessWidget {
           const SizedBox(
             width: 10,
           ),
-          const Icon(
-            Icons.send,
+          Image.asset(
+            'images/chat.png',
+            width: 25,
+            height: 25,
           ),
           const Spacer(),
           // Icon(
