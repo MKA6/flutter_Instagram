@@ -32,7 +32,7 @@ class Third extends StatelessWidget {
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(
                   Radius.circular(100),
-                ),
+                )
                 // borderRadius: BorderRadiusDirectional.only(
                 //   topStart: Radius.circular(100),
                 //   topEnd: Radius.circular(100),
