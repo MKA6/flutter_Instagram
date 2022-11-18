@@ -11,7 +11,7 @@ class InstagramIconBar extends StatelessWidget {
       child: Row(
         children: [
           const Icon(
-            Icons.favorite,
+            Icons.favorite_border,
           ),
           const SizedBox(
             width: 10,

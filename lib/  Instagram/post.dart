@@ -49,6 +49,10 @@ List posts = [
       "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGUlMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Mohammed Ali",
       "isVerified": true
+    },
+    "ss": {
+      "name" : "mohammed",
+      "number" : "545664",
     }
   }
 ];
