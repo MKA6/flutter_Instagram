@@ -7,6 +7,10 @@ List posts = [
       "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "name": "Omar Ahmed",
       "isVerified": true
+    },
+    "ss": {
+      "name" : "mohammed",
+      "number" : "545664",
     }
   },
   {
@@ -17,6 +21,10 @@ List posts = [
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGUlMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "name": "saeed hamed",
       "isVerified": false
+    },
+    "ss": {
+      "name" : "mohammed",
+      "number" : "545664",
     }
   },
   {
@@ -27,6 +35,10 @@ List posts = [
       "https://images.unsplash.com/photo-1599834562135-b6fc90e642ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGUlMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "name": "hussam ragheb",
       "isVerified": true
+    },
+    "ss": {
+      "name" : "mohammed",
+      "number" : "545664",
     }
   },
   {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/%20%20Instagram/Instagram.dart';
-import 'package:flutter_application_2/UsersScreen.dart';
+import 'package:flutter_application_2/Test/CounterScreen.dart';
+
 
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: UsersScreen(),
+      home: Instagram(),
     );
   }
 }

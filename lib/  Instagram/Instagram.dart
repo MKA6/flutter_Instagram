@@ -6,22 +6,22 @@ import 'package:flutter_application_2/%20%20Instagram/post.dart';
 import 'InstagramAppBar.dart';
 
 class Instagram extends StatelessWidget {
-  List<PostModel> convertDataToPosts() {
-    return posts.map((e) {
-      return PostModel.fromMap(e);
-    }).toList();
-  }
+  // List<PostModel> convertDataToPosts() {
+  //   return posts.map((e) {
+  //     return PostModel.fromMap(e);
+  //   }).toList();
+  // }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: InstagramAppBar(),
-      body: SingleChildScrollView(
-          child: Column(
-        children: (convertDataToPosts().map((e) {
-          return InstagramPost(e);
-        }).toList()),
-      )),
+          body: ListView.builder(
+            itemCount: posts.length,
+            itemBuilder: (context , index){
+              return InstagramPost(PostModel.fromMap(posts[index]));
+            }
+      ),
     );
   }
 }
