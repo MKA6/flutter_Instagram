@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/%20%20Instagram/PostModel.dart';
 
 class InstagramIconBar extends StatelessWidget {
+  // bool isLike;
+  PostModel postModel;
+  Function function;
+
+  InstagramIconBar(this.postModel , this.function);
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -10,8 +17,17 @@ class InstagramIconBar extends StatelessWidget {
       ),
       child: Row(
         children: [
-          const Icon(
-            Icons.favorite_border,
+          InkWell(
+            onTap: () {
+              function(postModel);
+            },
+            child: Image.asset(
+              postModel.isLike
+                  ? 'images/heart.png'
+                  : 'images/heart (1).png',
+              width: 23,
+              height: 23,
+            ),
           ),
           const SizedBox(
             width: 10,

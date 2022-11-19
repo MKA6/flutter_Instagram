@@ -6,6 +6,7 @@ class InstagramAppBar extends StatelessWidget with PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      elevation: 0.0,
       backgroundColor: Colors.white,
       leading: const Icon(
         Icons.arrow_back_ios,

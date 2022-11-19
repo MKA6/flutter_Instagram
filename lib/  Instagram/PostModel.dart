@@ -6,6 +6,7 @@ class PostModel {
   String? image;
   InstagramUser? instagramUser;
   Post_ss? post_ss;
+  bool isLike = false;
 
   PostModel.fromMap(Map map) {
     content = map['post_content'];

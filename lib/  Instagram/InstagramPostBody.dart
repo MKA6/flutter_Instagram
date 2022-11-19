@@ -7,7 +7,10 @@ class InstagramPostBody  extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.red,
+      // decoration: BoxDecoration(
+      //   borderRadius: BorderRadiusDirectional.circular(30),
+      //   color: Colors.red
+      // ),
       child: Image.network(
         image,
         fit: BoxFit.cover,

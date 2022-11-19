@@ -64,6 +64,7 @@ flutter:
      - images/
      - images/employee3.jpg
      - images/chat.png
+     - images/heart.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
