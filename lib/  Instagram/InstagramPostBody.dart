@@ -14,7 +14,7 @@ class InstagramPostBody  extends StatelessWidget {
       child: Image.network(
         image,
         fit: BoxFit.cover,
-        height: 400,
+        height: 300,
         width: double.infinity,
       ),
     );
